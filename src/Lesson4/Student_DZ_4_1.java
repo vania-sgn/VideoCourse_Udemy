@@ -38,8 +38,8 @@ class StudentTest{
         Dima.average_rating_math = 145.5f;
         Dima.average_rating_foreign_language = 198.1f;
 
-        System.out.println("Средняя арифметическая оценка Ивана: "+ (Ivan.average_rating_math+ Ivan.average_rating_economy+ Ivan.average_rating_foreign_language)/3);
-        System.out.println("Средняя арифметическая оценка Danil: "+ (Danil.average_rating_math+ Danil.average_rating_economy+ Danil.average_rating_foreign_language)/3);
-        System.out.println("Средняя арифметическая оценка Dima: "+ (Dima.average_rating_math+ Dima.average_rating_economy+ Dima.average_rating_foreign_language)/3);
+        System.out.println("Средняя арифметическая оценка студента "+Ivan.name+" "+Ivan.surname + " = "+(Ivan.average_rating_math+ Ivan.average_rating_economy+ Ivan.average_rating_foreign_language)/3);
+        System.out.println("Средняя арифметическая оценка студента "+Danil.name+" "+Danil.surname + " = "+(Danil.average_rating_math+ Danil.average_rating_economy+ Danil.average_rating_foreign_language)/3);
+        System.out.println("Средняя арифметическая оценка студента "+Dima.name+" "+Dima.surname + " = "+(Dima.average_rating_math+ Dima.average_rating_economy+ Dima.average_rating_foreign_language)/3);
     }
 }
