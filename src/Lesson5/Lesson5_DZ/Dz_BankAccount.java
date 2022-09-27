@@ -1,6 +1,4 @@
-package Lesson5;
-
-import java.sql.SQLOutput;
+package Lesson5.Lesson5_DZ;
 
 public class Dz_BankAccount {
     String name = "Ivan";
