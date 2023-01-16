@@ -13,6 +13,7 @@ public class Dz_BankAccount {
         System.out.println("На счету "+ balance);
         System.out.println();
         System.out.println();
+        System.out.println();
     }
     void snyatieSoScheta (double snyatie){
         System.out.println("На счету "+ balance);
