@@ -6,7 +6,7 @@ public class DZ_3_2 {
         int b = a-- - --a + ++a + a++ + a;
         System.out.println(b);
 
-        int  c = 8;
+        int c = 8;
         int d = ++b - b++ + ++b - --b;
         System.out.println(d);
         System.out.println(d);
